@@ -12,7 +12,6 @@ module rotator(
     parameter N = 28;
     logic [N-1:0] q_reg;
     logic [N-1:0] q_next;
-    logic [2:0] cntrl;
     
     // N-Bit counter 
     // register
